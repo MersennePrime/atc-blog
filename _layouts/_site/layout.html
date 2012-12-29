@@ -4,10 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>All Things Cloudy</title>
+  <title>{{ page.title }}</title>
 
+  <!-- TODO: change name and description -->
   <meta name="author" content="All Things Cloudy" />
-  <meta name="description" content="Technical blog about large scale distributed systems" />
+  <meta name="description" content="A fantastic blog that is fantastic." />
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
 
@@ -25,15 +26,20 @@
 <body>
   <section class="sidebar">
 
+    <a href="/">
+      <img class="avatar" width="75" height="75" src="/atc-icon.resized.png">
+    </a>
+    <!-- TODO: change name -->
     <section class="name">
       <a href="/">
-        <span id="atc">All Things </span>
+        <span id="atc">All Things</span>
         <span id="atc">Cloudy</span>
       </a>
     </section>
 
+    <!-- TODO: change links -->
     <section class="meta">
-      <a href="https://github.com/mersenneprime"><img src="/images/github.png" /></a>
+      <a href="https://github.com/MersennePrime"><img src="/images/github.png" /></a>
       <a href="https://twitter.com/AllThingsCloudy"><img src="/images/twitter.png"></a>
       <a href="/atom.xml"><img src="/images/rss.png" /></a>
     </section>
@@ -46,11 +52,7 @@
     </section>
   </section>
 
-  <section class="content">
-    <h1>Not Found</h1>
-
-    <p>Sorry! Couldn't find that page. Bummer.</p>
-  </section>
+  {{ content }}
 </body>
 
 </html>

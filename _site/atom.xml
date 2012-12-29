@@ -4,7 +4,7 @@
  <title>Zach Holman</title>
  <link href="http://allthingscloudy.com/atom.xml" rel="self"/>
  <link href="http://allthingscloudy.com/"/>
- <updated>2012-12-28T15:13:37-08:00</updated>
+ <updated>2012-12-29T00:19:37-08:00</updated>
  <id>http://allthingscloudy.com</id>
  <author>
    <name>All Things Cloudy</name>
@@ -18,22 +18,17 @@
    <id>http://allthingscloudy.com/posts/All-Things-Cloudy-Tech-Blog</id>
    <content type="html">&lt;p&gt;Hi there,
 This is a new blog focussed purely on technology issues around building cloud-scale, distributed systems.
-We share our perspectives, challenges regarding building and running software at scale. In some detail, we
-balance our decisions based on the three dimensions of the CAP theorem and how we reach compromises to meet
-customer experience and product requirements while still building the best product to run our cloud services.&lt;/p&gt;
+We share our perspectives, challenges regarding building and running software at scale. We balance our
+decisions based on the three dimensions of the CAP theorem and how we reach compromises to meet
+customer experience.&lt;/p&gt;
 
 &lt;p&gt;We intend to use this blog to share the details of our approach and technical challenges along the way that
 we encountered and solved.Thank you for reading and participating in the conversation!&lt;/p&gt;
 
-&lt;p&gt;All Things Cloudy Engineering team.&lt;/p&gt;
-
 &lt;hr /&gt;
 
-&lt;p&gt;You&amp;rsquo;ll want to &lt;a href=&quot;https://github.com/holman/left#readme&quot;&gt;get the code&lt;/a&gt; and read the README to learn how to
-install and set up Left for your own purposes.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, follow and ping me on Twitter- I&amp;rsquo;m
-&lt;a href=&quot;https://twitter.com/holman&quot;&gt;@holman&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We want to do a special shout out for a couple of tools we used to setup this blog. &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; is a static site
+generator and our search for a minimalistic theme ended with the &lt;a href=&quot;https://github.com/holman/left#readme&quot;&gt;left&lt;/a&gt; theme.&lt;/p&gt;
 </content>
  </entry>
  

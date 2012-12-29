@@ -16,3 +16,6 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+#Ignore password/auth files
+_jekyll_s3.yml
